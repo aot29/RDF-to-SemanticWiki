@@ -11,3 +11,6 @@ test/.coverage
 *.BACKUP.*
 .\#*
 paper/temp
+
+# spyder editor project config
+.spyproject/
