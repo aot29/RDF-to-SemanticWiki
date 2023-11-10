@@ -17,11 +17,11 @@ cd RDF-to-SemanticWiki
 ```
 You now need to create a configuration file. For testing, accept the defaults given by the configure script:
 ```
-docker-compose up -d
 ./configure
 ```
 This will install RDF-to-MediaWiki along with a basic semantic MediaWiki for testing:
 ```
+docker-compose up -d
 make install
 ```
 Do `docker ps` to get an overview of running containers.
